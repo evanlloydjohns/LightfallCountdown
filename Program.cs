@@ -4,13 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// Credit for system tray setup: https://www.codeproject.com/Articles/290013/Formless-System-Tray-Application
 namespace CountdownApp
 {
     internal static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
