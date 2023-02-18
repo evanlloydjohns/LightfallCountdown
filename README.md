@@ -13,3 +13,5 @@ If you want to remove the app, you can either go back to that directory and remo
 ![Screenshot 2023-02-17 231855](https://user-images.githubusercontent.com/43017805/219830888-c3ccdc24-d875-46cf-a246-5f19e22cf9ff.png)
 
 Click the __Releases__ tab on the left to download the app.
+
+Windows will probably scan the file for viruses and warn you when first trying to run the file. This is because I couldn't be fucked to learn how to create and sign a certificate that had my name on it in Visual Studio. If you have any doubts, consult the code.
