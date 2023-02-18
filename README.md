@@ -1,4 +1,4 @@
-# Lightfall Countdown Icon
+# Lightfall Countdown
 
 This is just a small app I threw together that displays the amount of time left until Destin 2: Lightfall releases in your system tray.
 
