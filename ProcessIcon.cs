@@ -4,6 +4,8 @@ using System.Windows.Forms;
 using CountdownApp.Properties;
 using System.Resources;
 
+
+// Credit for system tray setup: https://www.codeproject.com/Articles/290013/Formless-System-Tray-Application
 namespace CountdownApp
 {
     internal class ProcessIcon : IDisposable
