@@ -1,6 +1,6 @@
 # Lightfall Countdown
 
-This is just a small app I threw together that displays the amount of time left until Destin 2: Lightfall releases in your system tray.
+This is just a small app I threw together that displays the amount of time left until Destiny 2: Lightfall releases in your system tray.
 
 ![Screenshot 2023-02-17 231447](https://user-images.githubusercontent.com/43017805/219830796-718acee9-b6e1-4cc6-a472-029e50399fa6.png)
 
