@@ -36,7 +36,7 @@ namespace CountdownApp
 
         public void UpdateTimer(object sender, EventArgs e) 
         {
-            DateTime futureTime = new DateTime(2023, 3, 1, 12, 0, 0); // Replace with your desired future time
+            DateTime futureTime = new DateTime(2023, 2, 28, 12, 0, 0); // Replace with your desired future time
 
             TimeSpan timeRemaining = futureTime - DateTime.Now;
 
