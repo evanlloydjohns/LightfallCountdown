@@ -13,17 +13,19 @@ namespace CountdownApp
         NotifyIcon releaseIcon;
         DateTime releaseDate;
         TimeSpan timeRemaining;
+        string displayFormatString;
 
         public ProcessIcon()
         {
-            releaseDate = new DateTime(2023, 2, 28, 12, 0, 0);
             releaseIcon = new NotifyIcon();
+            releaseDate = new DateTime(2024, 6, 4, 11, 0, 0);
+            displayFormatString = "{0} days\n{1} hours\n{2} minutes\n{3} seconds";
         }
 
         public void Display()
         {
             // Create System Tray Icon
-            releaseIcon.Icon = Resources.Lightfall_Icon_XSmall;
+            releaseIcon.Icon = Resources.Destiny_Tricorn_XSmall;
             releaseIcon.Visible = true;
 
             // Set Up Timer
@@ -38,18 +40,15 @@ namespace CountdownApp
 
         public void UpdateTimer(object sender, EventArgs e) 
         {
-            DateTime futureTime = new DateTime(2023, 2, 28, 12, 0, 0); // Replace with your desired future time
+            timeRemaining = releaseDate - DateTime.Now;
 
-            TimeSpan timeRemaining = futureTime - DateTime.Now;
-
-            string timeRemainingText = String.Format(
-                "Light falls in \n{0} days\n{1} hours\n{2} minutes\n{3} seconds", 
-                timeRemaining.Days, 
-                timeRemaining.Hours, 
-                timeRemaining.Minutes, 
+            releaseIcon.Text = String.Format(
+                displayFormatString,
+                timeRemaining.Days,
+                timeRemaining.Hours,
+                timeRemaining.Minutes,
                 timeRemaining.Seconds
             );
-            releaseIcon.Text = timeRemainingText;
         }
 
         public void Dispose()

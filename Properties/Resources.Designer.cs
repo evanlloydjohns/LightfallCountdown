@@ -61,42 +61,42 @@ namespace CountdownApp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Destiny_Tricorn_Large {
+            get {
+                object obj = ResourceManager.GetObject("Destiny_Tricorn_Large", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Destiny_Tricorn_Small {
+            get {
+                object obj = ResourceManager.GetObject("Destiny_Tricorn_Small", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Destiny_Tricorn_XSmall {
+            get {
+                object obj = ResourceManager.GetObject("Destiny_Tricorn_XSmall", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Exit {
             get {
                 object obj = ResourceManager.GetObject("Exit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Lightfall_Icon_Large {
-            get {
-                object obj = ResourceManager.GetObject("Lightfall_Icon_Large", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Lightfall_Icon_Small {
-            get {
-                object obj = ResourceManager.GetObject("Lightfall_Icon_Small", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Lightfall_Icon_XSmall {
-            get {
-                object obj = ResourceManager.GetObject("Lightfall_Icon_XSmall", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
             }
         }
     }
